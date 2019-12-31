@@ -8,8 +8,8 @@ Written in Python, this will detect lanes on roads. If both left and right lanes
 
 ## Prerequisites
 You need to install the following
- - OpenCV
- - Anaconda
+ - [OpenCV](https://opencv.org/)
+ - [Anaconda](https://www.anaconda.com/)
 
 ## Installation
 ```bash

@@ -25,6 +25,9 @@ For the versions available, see the tags on this repository.
 ## Authors
 Tergel Molom-Ochir - Initial work
 
+## Acknowledgement
+Thank you "4k Relaxation Channel" for the videos!
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 

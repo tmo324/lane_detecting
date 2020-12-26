@@ -164,6 +164,10 @@ def cannyMaker(image):
 	return canny
 
 def region_of_interest(image):
+	'''
+	Mask the given image, given region of interest.
+	For now, we focus on a triangle that goes from the bottom to center area of given image or video
+	'''
 	height = image.shape[0]
 	width = image.shape[1]
 	print ("_________________________________")
@@ -180,6 +184,11 @@ def region_of_interest(image):
 	return masked_image
 
 def detectLines_and_draw(imageOrVideo):
+	'''
+	Input: image or video 
+	Result: Output the video or image with added graphics on it
+	'''
+
 	canny_image = cannyMaker(imageOrVideo) #gradient version of the image
 	cropped_image=region_of_interest(canny_image) #interested area
 	#lines calculations

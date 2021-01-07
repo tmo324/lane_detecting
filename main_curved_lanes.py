@@ -191,6 +191,6 @@ def main (nameOfTheFile):
                 print("other format")
 
 if __name__ == '__main__':
-       main("videos/rainy.mp4")
-#        main("pics/desert.jpg")
+#       main("videos/rainy.mp4")
+    	main("pics/desert.jpg")
 
